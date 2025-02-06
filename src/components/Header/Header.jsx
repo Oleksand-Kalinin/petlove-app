@@ -1,5 +1,11 @@
+import Container from "../Container/Container.jsx";
+
 const Header = () => {
-  return <header>Header</header>;
+  return (
+    <header>
+      <Container>Header</Container>
+    </header>
+  );
 };
 
 export default Header;

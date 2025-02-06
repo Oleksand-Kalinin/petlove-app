@@ -21,10 +21,10 @@
   --color-input-border: rgba(38, 38, 38, 0.15);
   --color-danger: #ef2447;
   --color-success: #08aa83;
-  --color-male: #f43f5e;
-  --color-male-bg: rgba(244, 63, 94, 0.1);
-  --color-female: #54adff;
-  --color-female-bg: rgba(84, 173, 255, 0.1);
+  --color-female: #f43f5e;
+  --color-female-bg: rgba(244, 63, 94, 0.1);
+  --color-male: #54adff;
+  --color-male-bg: rgba(84, 173, 255, 0.1);
 }
 
 body {
