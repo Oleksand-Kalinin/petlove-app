@@ -1,9 +1,38 @@
 @import 'modern-normalize/modern-normalize.css';
-/* @import url('./font/font.css'); */
+@import url('./font/font.css');
 
-/* :root {} */
+:root {
+  /* text colors */
+  --color-text-primary: #262626;
+  --color-text-secondary: rgba(38, 38, 38, 0.5);
+  --color-text-inverted: #fff;
+  --color-text-inverted-muted: rgba(255, 255, 255, 0.4);
+  --color-text-accent: #f6b83d;
+  --color-text-danger: #ef2447;
 
-/* body {} */
+  /* background-colors */
+  --color-background-primary: #f9f9f9;
+  --color-background-secondary: #fff;
+  --color-background-accent: #f6b83d;
+  --color-background-accent-hover: #f9b020;
+  --color-background-muted: #fff4df;
+  --color-background-muted-hover: #fbe7c1;
+
+  --color-input-border: rgba(38, 38, 38, 0.15);
+  --color-success: #08aa83;
+  --color-male: #f43f5e;
+  --color-male-bg: rgba(244, 63, 94, 0.1);
+  --color-female: #54adff;
+  --color-female-bg: rgba(84, 173, 255, 0.1);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  background-color: var(--color-background-primary);
+}
 
 a {
   text-decoration: none;
