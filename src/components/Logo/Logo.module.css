@@ -1,0 +1,32 @@
+.link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--color-text-primary);
+    fill: var(--color-bg-accent);
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.link.inverted {
+    color: var(--color-text-inverted);
+    fill: var(--color-text-inverted);
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+}
+
+@media screen and (min-width: 768px) {
+    .link {
+        font-size: 28px;
+    }
+
+    .icon {
+        width: 23px;
+        height: 23px;
+    }
+}

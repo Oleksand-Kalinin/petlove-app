@@ -1,9 +1,12 @@
 import Container from "../Container/Container.jsx";
+import Logo from "../Logo/Logo.jsx";
 
 const Header = () => {
   return (
     <header>
-      <Container>Header</Container>
+      <Container>
+        <Logo />
+      </Container>
     </header>
   );
 };
