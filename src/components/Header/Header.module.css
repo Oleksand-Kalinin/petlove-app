@@ -1,7 +1,19 @@
+.header {
+    max-width: 335px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.acceptBgColorOrange {
+    background-color: var(--color-bg-accent);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -25,7 +37,18 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .header {
+        max-width: 704px;
+    }
+}
+
+
 @media screen and (min-width: 1280px) {
+    .header {
+        max-width: 1216px;
+    }
+
     .menuBtn {
         display: none;
     }

@@ -4,11 +4,20 @@ import Logo from "../Logo/Logo.jsx";
 import sprite from "../../images/sprite.svg";
 import css from "./Header.module.css";
 import Nav from "../Nav/Nav.jsx";
+import { useLocation } from "react-router-dom";
+import clsx from "clsx";
 
 const Header = () => {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
-    <header>
-      <Container className={css.container}>
+    <header className={css.header}>
+      <Container
+        className={clsx(css.container, {
+          [css.acceptBgColorOrange]: isHomePage,
+        })}
+      >
         <Logo />
         <Nav />
         <button className={css.menuBtn} type="button">
