@@ -18,7 +18,7 @@
   --color-bg-muted-hover: #fbe7c1;
 
   /* other colors */
-  --color-input-border: rgba(38, 38, 38, 0.15);
+  --color-border-primary: rgba(38, 38, 38, 0.15);
   --color-danger: #ef2447;
   --color-success: #08aa83;
   --color-female: #f43f5e;
