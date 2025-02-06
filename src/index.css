@@ -8,17 +8,18 @@
   --color-text-inverted: #fff;
   --color-text-inverted-muted: rgba(255, 255, 255, 0.4);
   --color-text-accent: #f6b83d;
-  --color-text-danger: #ef2447;
 
   /* background-colors */
-  --color-background-primary: #f9f9f9;
-  --color-background-secondary: #fff;
-  --color-background-accent: #f6b83d;
-  --color-background-accent-hover: #f9b020;
-  --color-background-muted: #fff4df;
-  --color-background-muted-hover: #fbe7c1;
+  --color-bg-primary: #f9f9f9;
+  --color-bg-secondary: #fff;
+  --color-bg-accent: #f6b83d;
+  --color-bg-accent-hover: #f9b020;
+  --color-bg-muted: #fff4df;
+  --color-bg-muted-hover: #fbe7c1;
 
+  /* other colors */
   --color-input-border: rgba(38, 38, 38, 0.15);
+  --color-danger: #ef2447;
   --color-success: #08aa83;
   --color-male: #f43f5e;
   --color-male-bg: rgba(244, 63, 94, 0.1);
@@ -31,7 +32,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: var(--color-text-primary);
-  background-color: var(--color-background-primary);
+  background-color: var(--color-bg-primary);
 }
 
 a {
