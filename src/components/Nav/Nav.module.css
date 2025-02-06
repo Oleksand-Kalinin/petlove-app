@@ -27,12 +27,11 @@
     transition: border-color 250ms linear;
 }
 
+.activeLink,
 .link:hover,
 .link:focus {
     border-color: var(--color-bg-accent);
 }
-
-.activeLink {}
 
 @media screen and (min-width: 768px) {
     .link {
